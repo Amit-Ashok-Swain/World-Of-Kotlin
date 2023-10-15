@@ -73,6 +73,7 @@ In addition to the coding practice exercises, this course includes projects to g
 
 - **Recommended Textbook**: [[Title of Recommended Textbook](https://riptutorial.com/Download/kotlin.pdf)]
 - **Additional Reading**: [[Links to relevant articles, documentation, and books](https://kotlinlang.org/docs/home.html)]
+- **Official Kotlin GitHub Repository** : [[Link to GitHub Repository](https://github.com/Amit-Ashok-Swain/kotlin-web-site.git)]
 
 ## Getting Started
 
