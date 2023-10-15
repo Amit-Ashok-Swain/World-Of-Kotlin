@@ -1,0 +1,10 @@
+ # Cheat Sheet:
+
+  1. For making the Robot, create a class Robot and give its name as a primary parameter.
+  2. The tasks performed by the Robot will become the functions of this class. Each function will simply print the tasks being performed.
+  3. The variants for each function will become the parameters of those functions. For storing similar items, try to make use of ArrayList and its functions.
+  4. After this use the object-oriented techniques using this Robot class in your main function.
+  5. Also, for some detailed objects like ingredients for coffee, create a data class Coffee and put its parameters in those. You can do this for other functions as well.
+
+
+                                       All the best! Happy Coding :)

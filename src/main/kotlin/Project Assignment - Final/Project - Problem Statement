@@ -1,0 +1,69 @@
+# Problem Statement:
+
+- In this module, you have learned about the following in Kotlin:
+
+ 1. Variables and Operators
+ 2. Functions
+ 3. Arrays, Lists, and Strings
+ 4. Conditionals and Loops
+ 5. Exception Handling
+ 6. Classes, Objects, and Interfaces
+
+ - If you still do not feel confident with the above, we recommend you to take a quick recap of the module - don’t worry, practice makes one perfect! But if you are feeling confident and raring to go, it is time to put your knowledge to work.
+
+ - In our day-to-day life, we come across various problems that can be solved with the help of programming. We will try to solve a similar problem with the help of Kotlin programming and your problem-solving skills.
+
+ -> For this assignment, we will try to automate the different morning tasks which most of us perform before going to class in college.
+    We will create a Robot that will perform these tasks for us to simplify our lives.
+
+  ->Every day in the morning we need to complete some set of predefined tasks that remain constant. We can list the generic tasks as below:
+
+   1. Ring the alarm on time
+   2. Make coffee
+   3. Heat the water to a suitable temperature
+   4. Pack your bag (Keep only appropriate books for the day)
+   5. Cook breakfast and lunch
+   6. Iron the clothes
+
+ # From now on, a Kotlin Robot will complete the above set of tasks for us.
+
+
+ # Specifications:
+
+ -> About the Robot:
+
+ # Consider the Robot as your personal assistant. You will give the Robot a name by which you will call it. You also need to define the functions performed by the Robot. These functions will be the same as above i.e. the tasks which it will perform for you in the morning. Feel free to add/modify the above-listed tasks as per your choice.
+
+ 1. Ring the alarm:
+
+  - The Robot will ring the alarm every day at a specified time which will be set by you. You also need to set the days on which the alarm will not ring.
+
+ 2. Make coffee:
+
+  - The Robot will make coffee for you every day. You need to tell the Robot about the following details:
+
+      A. How do you like your coffee (Black/With Milk).
+      B. How much sugar you’ll take.
+      C. You can also customize the preferences according to the day of the week.
+
+ 3. Heat the water:
+
+   - You need to tell the Robot about the temperature you like for your bathing water. Additional information which can be added is whether you’ll be bathing on a particular day or not. Although, we recommend that you take baths every day ;).
+
+ 4. Pack your bag:
+
+   - The Robot will keep the books in your bag as per your timetable. You need to input the timetable into your Robot’s memory so that it works accordingly.
+
+ 5. Cook breakfast and lunch:
+
+   - The Robot will cook your food according to your taste. You can let the Robot know which food items do you like for breakfast and lunch and it will choose randomly from the list provided by you. Here is a tip for you. To randomly choose an option from a list you can use the .random() method on the list.
+
+ 6. Iron the clothes:
+
+   - Just tell the Robot what you want to wear before taking the bath and the clothes will be ready for you as soon as you come out after bathing.
+
+ -> The above tasks done by the Robot will surely simplify your life. As most of the work will be done by your Robot, you can choose to have an extra hour of sleep. However, make sure to give the commands to the Robot before you sleep for the night, else everything will be ruined and you’ll be late for the class.
+
+ -> To make the Robot, you need to create a project in Kotlin that will be responsible for all the above-listed tasks. Just recall the concepts taught to you in this module and try to approach the problem keeping those concepts in mind. So put your programming hats on, it’s time to get the work done and sleep a bit more every day. All the best!
+
+ Note : (*If you are not able to figure out the approach to this problem, don’t worry we have made a cheat sheet for you that you can see below)

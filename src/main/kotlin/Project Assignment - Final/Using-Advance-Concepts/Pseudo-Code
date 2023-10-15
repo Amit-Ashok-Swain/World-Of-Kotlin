@@ -1,0 +1,17 @@
+class Robot(val name: String) {
+    fun ringAlarm(alarmTime: String, daysToRing: List<String>) {
+        // Implement the alarm ringing task
+    }
+
+    fun makeCoffee(preferences: CoffeePreferences) {
+        // Implement the coffee making task
+    }
+
+    fun heatWater(temperature: Int, bathDays: List<String>) {
+        // Implement the water heating task
+    }
+
+    // Define similar functions for other tasks
+}
+
+data class CoffeePreferences(val sugar: Int, val milk: Boolean)

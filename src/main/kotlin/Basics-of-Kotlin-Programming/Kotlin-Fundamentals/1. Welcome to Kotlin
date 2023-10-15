@@ -1,0 +1,81 @@
+# Link to install JDK for Windows:
+
+- https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+# Installing JDK for MacOS:
+
+- Go to Google.com and type ‘Java JDK for Mac’ and click on the first link that appears. If you are not able to reach the link, use this link- https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+- In the next page that opens up, select the radio button for 'Accept License Agreement'.
+- After clicking on it, download the JDK version for the Mac OS X.
+- After download, open the downloaded .dmg file and click on the box icon in the window that opens up.
+- Click on continue and then install.
+- It will ask for your system password, so enter your system password to authenticate the installation.
+- Once the installation finishes, click on close.
+- To verify the installation, open the terminal by pressing CMD + Space Bar and typing terminal. Click on the terminal option.
+- When the terminal opens up, type 'javac -version'. This will tell you the version of Java installed. This will indicate that the installation has been successful.
+
+# Installing JDK for Linux:
+
+- Go to your search panel and type Terminal.
+- In order to install JDK in your system, you need to follow some specific commands.
+- First, type the command below in your home directory: sudo apt-add-repository ppa:webupd8team/java and hit enter.
+- Enter your password and hit enter again. It will ask for confirmation, so hit enter again.
+- This will install the required repositories in your system. After the process finishes, enter the next command: sudo apt-get update and hit enter. This will update the installed repositories.
+- After the process finishes, enter the third command: sudo apt-get install oracle -java8-installer and hit enter. It will ask for confirmation here. Type ‘Y’ and hit enter.
+- You will see a new window asking for installation confirmation of Java. Select Ok and hit enter. Then select Yes and hit enter.
+- This will install Java in your system. Make sure you are connected to the internet during this process. This will take some time to install.
+- After installation, we will check where Java is installed. Go to file explorer and move to My Computer.
+- Within my computer, go to usr directory.
+- Go to lib and find the folder named jvm. Open it and go into the java8 folder.
+- Inside the folder, you will find different folders and files which were installed.
+- Right-click on any folder and go to properties. Copy the path of the folder.
+- Get back to the terminal and type the command: sudo gedit /etc/profile and hit enter. A file with some contents will open up. Do not edit anything in this file.
+- At the end of the file, we will define the path for Java. So scroll to the end of this file and write the following command: export JAVA_HOME = /usr/lib/jvm/java-8-oracle (paste the path you copied earlier).
+- Click on save and close the file.
+- Go back to your terminal and type the command: javac -version
+- You will get the installed version of Java. This completes the installation of Java in your system.
+
+
+
+# Link to install IntelliJ IDEA for Windows:
+
+- https://www.jetbrains.com/idea/
+
+# Installing IntelliJ IDEA for MacOS:
+
+- Go to Google.com and type 'IntelliJ IDEA for Mac' and hit enter.
+- Click the first link from the result and go to the download page. If you are not able to follow the link, click here https://www.jetbrains.com/idea/download/?section=mac#section=mac to visit the page.
+- Select the macOS version in the page and download the 'Community Version'.
+- After clicking on download, a .dmg file will be downloaded.
+- Open the .dmg file and then drag and drop the file into the applications folder.
+- This completes the installation of IntelliJ IDEA into your Mac. Open applications and click on IntelliJ IDEA icon to run it.
+- On the next window which opens, select the 'Do not import settings' radio button and click Ok.
+- Select the checkbox for 'I confirm that I have read and accept the terms of User Agreement' and click on continue.
+- Click 'Don't Send' on the next screen.
+- Next comes the theme selector. You can select any one of the two. For this training, we will be using the Light theme.
+- Click on 'Next: Featured Plugins' without changing anything.
+- On the next screen, you do not need to install anything so directly click 'Start using IntelliJ IDEA'.
+
+# Installing IntelliJ IDEA for Linux
+
+- Go to Google.com and type 'IntelliJ IDEA for Linux' and hit enter.
+- Click the first link from the result and go to the download page. If you are not able to follow the link, click here https://www.jetbrains.com/idea/download/?section=linux#section=linux to visit the page.
+- Select the Linux version in the page and download the 'Community Version'.
+- After downloading the file, go to your downloads and find the downloaded file.
+- Right-click on the file and click on extract here. After extraction, you will find a folder created.
+- Open the folder and go to the bin folder. Inside the bin folder, you will find a file named idea.sh. We need to run this from our terminal.
+- Open the terminal and navigate to the bin directory from the terminal using the command: cd <path_of_bin_file>.
+- Once we are inside the bin folder, we need to run the idea.sh using the following command: ./idea.sh. This will start your IDE.
+- On the next window which opens, select the 'Do not import settings' radio button and click Ok.
+- Select the checkbox for 'I confirm that I have read and accept the terms of User Agreement' and click on continue.
+- Click 'Don't Send' on the next screen.
+- Next comes the theme selector. You can select any one of the two. For this training, we will be using the 'Light' theme.
+- Click on 'Next: Featured Plugins' without changing anything.
+- On the next screen, you do not need to install anything, so directly click 'Start using IntelliJ IDEA'.
+
+
+# Resources
+- We are using version 1.9.10 of Kotlin while creating this training.
+- The version may get updated in some time.
+- Some minor things may change but the overall basics of programming and using code will remain the same.
+- If there are any major updates we will let you know.
