@@ -1,7 +1,10 @@
 <h1 align="center">World Of Kotlin - (The Kotlin Programming Course)</h1>
 <p align="center">
-  <a href="Java url">
-    <img alt="Java" src="https://img.shields.io/badge/Kotlin-1.9.10-darkblue.svg" />
+  <a href="Kotlin url">
+    <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-1.9.10-darkblue.svg" />
+  </a>
+  <a href="Kotlin url">
+    <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white" />
   </a>
   <a href="License url">
     <img alt="BSD Clause 3" src="https://img.shields.io/badge/License-BSD_3--Clause-blue.svg"/>
