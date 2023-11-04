@@ -88,8 +88,14 @@ Happy coding, and let's get started with Kotlin!
 This project is licensed under the [BSD 3-Clause License](LICENSE).
 
 ## Contact
-
+[![linkedin](https://img.shields.io/badge/Amit_Ashok_Swain-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amit-ashok-s-a510b9b9/)
+[![Twitter](https://img.shields.io/badge/Amit_Ashk_Swain-20232A?style=for-the-badge&logo=Github&logoColor=white)](https://github.com/amit-ashok-swain/)
 For questions or feedback, please contact [Amit Ashok Swain](mailto:business.amitswain@gmail.com).
+© 2023 Amit Ashok Swain
+
+## Show your support
+
+Give a ⭐️ if you like this project!
 
 ---
 </p>
